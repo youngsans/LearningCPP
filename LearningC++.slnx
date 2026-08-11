@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="004_DataType/004_DataType.vcxproj" Id="1df9263b-9432-449c-a895-3d9264f3bfa0" />
+  <Project Path="005_Operator/005_Operator.vcxproj" Id="5f79230d-cbba-4fa7-b97b-aa574cedf3a3" />
+  <Project Path="008_IfEsle/008_IfEsle.vcxproj" Id="3a40e08e-18be-4c66-9fd8-63ae9dd6af88" />
+  <Project Path="010_BitOperator/010_BitOperator.vcxproj" Id="3d2e12e4-a167-4ef9-8af6-f02874119b13" />
+  <Project Path="012_Variable/012_Variable.vcxproj" Id="c6b6aa88-1ac9-412e-96d2-ba354554904a" />
+  <Project Path="013_Function/013_Function.vcxproj" Id="2a0cd0d2-964a-4965-aed5-0fa72b010442" />
+  <Project Path="020_Array/020_Array.vcxproj" Id="afb34a12-4233-4cc2-8044-f14906db388e" />
+  <Project Path="021_Struct/021_Struct.vcxproj" Id="af0d6e6a-5272-46d9-9b84-abc7a56f0700" />
+  <Project Path="027_Pointer/027_Pointer.vcxproj" Id="402656dc-bcb5-4eda-936a-7c9f1442ab95" />
+  <Project Path="030_ConstPointer/030_ConstPointer.vcxproj" Id="665663c2-bf1d-4c8b-9257-f9d905f0bc78" />
+  <Project Path="testProject/testProject.vcxproj" Id="9c397cfb-b570-4746-ba74-a5774dc47d74" />
+</Solution>
