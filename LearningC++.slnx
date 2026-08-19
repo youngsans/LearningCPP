@@ -13,5 +13,10 @@
   <Project Path="021_Struct/021_Struct.vcxproj" Id="af0d6e6a-5272-46d9-9b84-abc7a56f0700" />
   <Project Path="027_Pointer/027_Pointer.vcxproj" Id="402656dc-bcb5-4eda-936a-7c9f1442ab95" />
   <Project Path="030_ConstPointer/030_ConstPointer.vcxproj" Id="665663c2-bf1d-4c8b-9257-f9d905f0bc78" />
+  <Project Path="034_String/034_String.vcxproj" Id="1404af1b-a22b-4394-9523-2f2e66ffe211" />
+  <Project Path="038_FunctionOverloading/038_FunctionOverloading.vcxproj" Id="39c92706-34e7-4055-81b6-efc33db1950b" />
+  <Project Path="039_StringCompare/039_StringCompare.vcxproj" Id="e8003527-ad1d-4b5f-beb0-46afe6cfd4b8" />
+  <Project Path="040_StructPointer/040_StructPointer.vcxproj" Id="da365d57-9a9b-4515-8389-575be401d14c" />
+  <Project Path="041_DynamicAllocation/041_DynamicAllocation.vcxproj" Id="92f94118-0c66-464e-ad7b-18bae26ed481" />
   <Project Path="testProject/testProject.vcxproj" Id="9c397cfb-b570-4746-ba74-a5774dc47d74" />
 </Solution>
