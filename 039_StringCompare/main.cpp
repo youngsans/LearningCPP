@@ -20,7 +20,7 @@ int CompareString(const wchar_t* first, const wchar_t* second)
 	int i = 0;
 
 	while (first[i] != 0 && second[i] != 0)
-	{
+	{ 
 		
 		if (first[i] == second[i])
 		{
