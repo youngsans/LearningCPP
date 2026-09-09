@@ -14,28 +14,19 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Array">
-      <UniqueIdentifier>{8d8af83c-8e56-465c-98a0-e9cde80e07dd}</UniqueIdentifier>
+      <UniqueIdentifier>{810a00d6-7d51-4c74-a4fe-365f5079501c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Arr.cpp">
       <Filter>Array</Filter>
     </ClCompile>
-    <ClCompile Include="main_review.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ArrReview.cpp">
-      <Filter>Array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arr.h">
-      <Filter>Array</Filter>
-    </ClInclude>
-    <ClInclude Include="ArrReview.h">
       <Filter>Array</Filter>
     </ClInclude>
   </ItemGroup>
