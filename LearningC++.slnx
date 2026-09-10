@@ -20,8 +20,10 @@
   <Project Path="041_DyanmicAllocation_Practice/041_DyanmicAllocation_Practice.vcxproj" Id="747a3303-093c-4dd1-b9cf-414fa538b05c" />
   <Project Path="041_DyanmicAllocation_PracticeAgain/041_DyanmicAllocation_PracticeAgain.vcxproj" Id="e3967488-f428-4a90-a60e-eba2ef91de03" />
   <Project Path="041_DynamicAllocation/041_DynamicAllocation.vcxproj" Id="92f94118-0c66-464e-ad7b-18bae26ed481" />
+  <Project Path="041_DynamicAllocation_PracticeAgainAgain/041_DynamicAllocation_PracticeAgainAgain.vcxproj" Id="e4abb9ec-311f-4b48-b58a-f22fb2409ec5" />
   <Project Path="045_DynamicAllocationTest/045_DynamicAllocationTest.vcxproj" Id="172e8133-c3f8-4319-99be-08092c15f11e" />
-  <Project Path="046_1_BeginAgain/046_1_BeginAgain.vcxproj" Id="335e742e-1540-4301-ad33-49060d5e3273" />
+  <Project Path="046_FunctionPointer_Practice/046_FunctionPointer_Practice.vcxproj" Id="c39b838d-2875-4a8b-be43-b2293c591ac7" />
   <Project Path="046_List/046_List.vcxproj" Id="6d543fa2-4aa9-4319-b564-9f5370e471db" />
+  <Project Path="048_LinkedList/048_LinkedList.vcxproj" Id="99cf75aa-047a-4d87-b3a5-82ee1bcf1347" />
   <Project Path="testProject/testProject.vcxproj" Id="9c397cfb-b570-4746-ba74-a5774dc47d74" />
 </Solution>

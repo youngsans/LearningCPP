@@ -27,7 +27,7 @@ int main()
 
 	printf("\n");
 
-	SortBubble(&myArr2);
+	BubbleSorting(&myArr2);
 	
 	for (int i = 0; i < myArr2.count; ++i)
 	{

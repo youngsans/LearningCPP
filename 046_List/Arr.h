@@ -1,11 +1,10 @@
 #pragma once
 
-typedef struct dynamicArray
+typedef struct DynamicArray
 {
-	int count = 0;
-	int maxCount = 0;
+	int	count = 0;
+	int	countMax = 0;
 	int* ptrInt = nullptr;
-
 }dArr;
 
 void Init(dArr* pArr);
@@ -13,5 +12,4 @@ void PushBack(dArr* pArr, int iData);
 void Reallocate(dArr* pArr);
 void Release(dArr* pArr);
 
-void SortBubble(dArr* pArr);
-void BubbleSorting(dArr* pArr);
+void Sort(dArr* pArr, void(*SortFunc)(int*, int));

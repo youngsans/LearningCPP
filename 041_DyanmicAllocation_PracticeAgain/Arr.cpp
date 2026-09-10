@@ -36,32 +36,41 @@ void Release(dArr* pArr)
 }
 
 // 버블 정렬
-void SortBubble(dArr* pArr)
-{	
-	bool isChanged = false;
-	do
+//void SortBubble(dArr* pArr)
+//{	
+//	for (int i = 0; i < pArr->count - 1; ++i)
+//	{
+//		for (int j = 0; j < pArr->count - i - 1; ++j)
+//		{
+//			printf("------ %d 번째 비교 ------\n", i + 1);
+//			printf("배열의 %d 번 값: %d\n", i, pArr->ptrInt[i]);
+//			printf("배열의 %d 번 값: %d\n", i + 1, pArr->ptrInt[i + 1]);
+//
+//			// 두 값을 비교해서 큰 값을 뒤로 보내기
+//			if (pArr->ptrInt[j] > pArr->ptrInt[j + 1])
+//			{
+//				int iTemp = pArr->ptrInt[j + 1];
+//				pArr->ptrInt[j + 1] = pArr->ptrInt[j];
+//				pArr->ptrInt[j] = iTemp;
+//			}
+//		}		
+//	}
+//	printf("\n");
+//}
+
+//위에 코드 주석화 시키고 닫은 뒤에 혼자 다시 써본 것
+void BubbleSorting(dArr* pArr)
+{
+	for (int i = 0; i < pArr->count - 1; ++i)
 	{
-		for (int i = 0; i < pArr->count - 1; ++i)
+		for (int j = 0; j < pArr->count - 1 - i; ++j)
 		{
-			printf("------ %d 번째 비교 ------\n", i + 1);
-			printf("배열의 %d 번 값: %d\n", i, pArr->ptrInt[i]);
-			printf("배열의 %d 번 값: %d\n", i + 1, pArr->ptrInt[i + 1]);
-
-			isChanged = false;
-
-			// 두 값을 비교해서 큰 값을 뒤로 보내기
-			if (pArr->ptrInt[i] > pArr->ptrInt[i + 1])
+			if (pArr->ptrInt[j] > pArr->ptrInt[j + 1])
 			{
-				int iTemp = pArr->ptrInt[i + 1];
-				pArr->ptrInt[i + 1] = pArr->ptrInt[i];
-				pArr->ptrInt[i] = iTemp;
-
-				isChanged = true;
+				int tempInt = pArr->ptrInt[j + 1];
+				pArr->ptrInt[j + 1] = pArr->ptrInt[j];
+				pArr->ptrInt[j] = tempInt;
 			}
 		}
-	} while (isChanged == true);
-
-
-	
-	printf("\n");
+	}
 }

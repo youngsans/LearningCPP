@@ -23,6 +23,7 @@ int main()
 	//삼항 연산자
 	data == 20 ? data = 1 : data = 20;
 	// 조건검사 ?  참이면  : 거짓이면   실행
+
 	if (data == 20)
 	{
 		data = 1;
