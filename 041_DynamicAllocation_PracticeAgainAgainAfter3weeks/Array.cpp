@@ -24,8 +24,8 @@ void Reallocate(dArr* array)
 	{
 		newPtrInt[i] = array->ptrInt[i];
 	}
+	free(array->ptrInt);
 	array->ptrInt = newPtrInt;
-	free(newPtrInt);
 	array->countMax *= 2;
 }
 
