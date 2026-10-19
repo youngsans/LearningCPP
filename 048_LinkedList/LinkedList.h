@@ -1,16 +1,18 @@
 #pragma once
 
+typedef struct _tagNode
+{
+	struct _tagNode* pNextNode = nullptr;
+	int iData = 0;
+}tNode;
+
 typedef struct _tagLinkedList
 {
-	tNode* tHeadNode;
+	tNode* pHeadNode;
 	int iCount;
 }tList;
 
-typedef struct _tagNode
-{
-	struct _tagNode* tNextNode;
-	int iData;	
-}tNode;
-
-void InitLink(tList* list);
-void PushBack(tList* list, int iData);	
+void InitList(tList* _pList);
+void PushBack(tList* _pList, int _iData);
+int GetData(tList* _pList, int _iCount);
+void ReleaseList(tList* _pList);
