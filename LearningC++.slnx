@@ -28,5 +28,6 @@
   <Project Path="046_List/046_List.vcxproj" Id="6d543fa2-4aa9-4319-b564-9f5370e471db" />
   <Project Path="048_LinkedList/048_LinkedList.vcxproj" Id="99cf75aa-047a-4d87-b3a5-82ee1bcf1347" />
   <Project Path="048_LinkedList_Practice/048_LinkedList_Practice.vcxproj" Id="94fc28a0-90d4-4d72-a49d-65c0346ed8b4" />
+  <Project Path="051_Class/051_Class.vcxproj" Id="00a095cf-d647-483d-bfd6-e5f24d6a593f" />
   <Project Path="testProject/testProject.vcxproj" Id="9c397cfb-b570-4746-ba74-a5774dc47d74" />
 </Solution>

@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Sort.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LinkedList.cpp" />
