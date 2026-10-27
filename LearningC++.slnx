@@ -30,5 +30,6 @@
   <Project Path="048_LinkedList_Practice/048_LinkedList_Practice.vcxproj" Id="94fc28a0-90d4-4d72-a49d-65c0346ed8b4" />
   <Project Path="051_Class/051_Class.vcxproj" Id="00a095cf-d647-483d-bfd6-e5f24d6a593f" />
   <Project Path="054_ArrayWithClass/054_ArrayWithClass.vcxproj" Id="11d1ac57-c66a-4bf5-aee6-fdb18ebb5e64" />
+  <Project Path="054_ArrayWithClass_Practice/054_ArrayWithClass_Practice.vcxproj" Id="5a0ef7f6-cffc-42f6-8619-644ae0762bf7" />
   <Project Path="testProject/testProject.vcxproj" Id="9c397cfb-b570-4746-ba74-a5774dc47d74" />
 </Solution>

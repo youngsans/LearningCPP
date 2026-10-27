@@ -9,7 +9,7 @@ CArr::CArr()
 
 CArr::~CArr()
 {
-	delete[] m_pInt;
+	delete[] m_pInt; 
 }
 
 void CArr::Reallocate()
